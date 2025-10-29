@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+streamlit
+nbformat
+nbconvert
+prophet
+statsmodels
+joblib
+fastapi
+uvicorn
+pydantic
