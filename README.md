@@ -1,15 +1,20 @@
-# Ashbard Energy — Production Efficiency Tracker (Sample Project)
+# Ashbard Energy — Production Efficiency Tracker Project
 
 This repository contains a synthetic dataset, a Jupyter Notebook for EDA/KPIs/Forecasting/Anomaly detection, and a Streamlit starter app for visualizing the data.
 
 ## Contents
-- `ashbard_production.csv` — synthetic upstream production dataset
-- `dealership_energy.csv` — synthetic car dealership energy & fleet dataset
-- `Ashbard_Energy_Tracker.ipynb` — Jupyter Notebook (EDA, KPIs, anomaly detection, forecasting)
-- `app.py` — Streamlit starter app
-- `.github/workflows/ci.yml` — GitHub Actions workflow to run basic checks
-- `Dockerfile` — Dockerfile to containerize the Streamlit app
-- `requirements.txt` — Python dependencies
+ashbard_energy_project/
+├── data/production_data.csv
+├── models/
+│   ├── efficiency_model.pkl
+│   └── shap_summary.png
+├── serve_api.py          # Flask API for probabilistic forecasts
+├── app.py                # Streamlit visualization
+├── Ashbard_Energy_Tracker.ipynb
+├── requirements.txt
+├── Dockerfile
+└── README.md
+
 
 ## Quick start (locally)
 1. Create a virtual environment: `python -m venv venv`
